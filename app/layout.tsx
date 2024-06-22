@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Pixelify_Sans } from "next/font/google";
 import "./globals.css";
 
-const inter = Pixelify_Sans({ subsets: ["latin"] });
+const pixel = Pixelify_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} container my-4`}>{children}</body>
+      <body className={`${pixel.className} container my-4`}>{children}</body>
     </html>
   );
 }
