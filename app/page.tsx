@@ -12,7 +12,7 @@ export default function Home() {
           Currently in:{" "}
           <span>
             <a
-              className="text-primary"
+              className="text-accent"
               href="https://prosperna.com"
               target="_blank"
               rel="noopener noreferrer"
@@ -27,6 +27,13 @@ export default function Home() {
           Hamlo, I&apos;m a fullstack developer and maker based in the
           Philippines
         </p>
+        <p>I mainly work with:</p>
+        <ul>
+          <li>Typescript</li>
+          <li>Go</li>
+          <li>Rust</li>
+          <li>Any frontend framework at this point</li>
+        </ul>
       </section>
       <div>
         <h3 className="text-2xl">Things I&apos;ve made</h3>
