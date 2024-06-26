@@ -31,7 +31,8 @@ export default function Home() {
         <ul>
           <li>Typescript</li>
           <li>Go</li>
-          <li>Rust</li>
+          <li>Flutter</li>
+          <li>C</li>
           <li>Any frontend framework at this point</li>
         </ul>
       </section>
