@@ -1,33 +1,27 @@
-import {
-  ResizableHandle,
-  ResizablePanel,
-  ResizablePanelGroup,
-} from "@/components/ui/resizable";
+import { Button } from '@/components/ui/button'
 
 export default function Home() {
-  return (
-    <main className="h-screen">
-      <ResizablePanelGroup direction="horizontal">
-        <ResizablePanel className="p-8">
-          <section className="flex flex-col min-w-fit">
-            <h1 className="text-9xl font-semibold">Disosur Studio</h1>
-
-            <div className="flex flex-col space-y-4">
-              <p className="text-2xl">
-                A Fullstack dev who has a knack for Design sometimes
-              </p>
-              <p>
-                Hamlo, I&apos;m Alysstair. I make things using code and design
-                things with paper and pen (not figma). I write Typescript for a
-                living. But I like coding things with Go, Rust, and Flutter
-              </p>
-            </div>
-          </section>
-          <nav className="flex p-4 text-xl">Blogs Works About</nav>
-        </ResizablePanel>
-        <ResizableHandle withHandle />
-        <ResizablePanel>Two</ResizablePanel>
-      </ResizablePanelGroup>
-    </main>
-  );
+    return (
+        <main className="text-white bg-black">
+            <section className="flex justify-center flex-col items-center h-screen">
+                <div className="flex flex-col items-center space-y-4">
+                    <p>
+                        <span>I do some coding for a living and for fun</span>
+                    </p>
+                    <h1 className="text-9xl">Disosur</h1>
+                    <h2 className="italic text-2xl">
+                        and the name is Alysstair Morales
+                    </h2>
+                </div>
+                <div className="flex space-x-4">
+                    <Button variant="link" className="text-white">
+                        My works
+                    </Button>
+                    <Button variant="link" className="text-white">
+                        My Blogs
+                    </Button>
+                </div>
+            </section>
+        </main>
+    )
 }
